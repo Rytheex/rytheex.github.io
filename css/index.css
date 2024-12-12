@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "skip";
+    src: url('../res/fnt/FOT-Skip\ Std\ B.otf');
+}
+
+body, html {
+    background-color: black;
+    height: 100%;
+}
+
+.bg-image {
+    background-image: url('../res/img/index/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+
+    height: 100%;
+}
+
+.bg-text  {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 50%;
+
+    z-index: 1;
+
+    font-family: "skip";
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    color: red;
+}
+
+.logo{
+    position: absolute;
+    top: 7%;
+    left: 42%;
+    z-index: 2;
+}
+
+.calling-card-style {
+    width: 10%; 
+    height: 10%; 
+
+    position: relative; 
+    top: 30px; 
+    right: 40px; 
+
+    border-radius: 10px;
+}
